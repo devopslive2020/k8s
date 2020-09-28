@@ -1,5 +1,5 @@
 ingress: true
-image: rtdemo/{{ .Chart.Name }}:{{ .Chart.AppVersion }}
+image: maniaque/{{ .Chart.Name }}:{{ .Chart.AppVersion }}
 
 container:
   port: 80
